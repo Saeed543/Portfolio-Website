@@ -1,0 +1,64 @@
+.about {
+  display: flex;
+  align-items: center;
+  gap: 65px;
+  max-width: 1120px;
+  width: 100%;
+  margin: 138px auto 0;
+  color: rgba(0, 0, 0, 1);
+}
+
+.profileImage {
+  width: 347px;
+  height: 347px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 30px 32px rgba(123, 34, 34, 0.56);
+}
+
+.aboutContent {
+  flex: 1;
+}
+
+.aboutTitle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-transform: uppercase;
+  font: 600 56px/1 Saira Condensed, -apple-system, Roboto, Helvetica, sans-serif;
+  margin: 0 0 30px;
+}
+
+.titleDecoration {
+  background-color: rgba(123, 34, 34, 1);
+  width: 5px;
+  height: 57px;
+}
+
+.aboutDescription {
+  font: 300 30px/30px Open Sans Condensed, -apple-system, Roboto, Helvetica,
+    sans-serif;
+  margin: 0;
+}
+
+@media (max-width: 991px) {
+  .about {
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 40px;
+  }
+
+  .profileImage {
+    width: 100%;
+    max-width: 347px;
+    height: auto;
+  }
+
+  .aboutTitle {
+    font-size: 40px;
+  }
+
+  .aboutContent {
+    max-width: 100%;
+  }
+}

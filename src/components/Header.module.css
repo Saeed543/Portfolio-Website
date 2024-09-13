@@ -1,0 +1,85 @@
+.header {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  color: rgba(255, 255, 255, 1);
+  padding: 36px 1px;
+  font: 700 25px Open Sans, sans-serif;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.logo {
+  width: 45px;
+  height: 45px;
+}
+
+.portfolioTitle {
+  font-weight: 700;
+}
+
+.navLinks {
+  display: flex;
+  list-style-type: none;
+  gap: 40px;
+}
+
+.navLink {
+  color: inherit;
+  text-decoration: none;
+}
+
+.contactButton {
+  background-color: rgba(123, 34, 34, 1);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+@media (max-width: 991px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    max-width: 1120px;
+    margin: 0 auto;
+    z-index: 0;
+    position: relative;
+    top: none;
+    left: none;
+    right: none;
+  }
+
+  .navLinks {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .contactButton {
+    align-self: flex-start;
+  }
+}

@@ -1,0 +1,75 @@
+.hero {
+  display: flex;
+  min-height: 522px;
+  width: 100%;
+  /* max-width: 719px; */
+  color: rgba(255, 255, 255, 1);
+  background-color: black;
+  font-weight: 700;
+  margin-top: -5rem;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left {
+  flex: 1;
+  background-image: url('/work_desk.jpg');
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+}
+
+.heroContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.heroTitle {
+  text-transform: uppercase;
+
+  font: 146px/146px Saira Condensed, -apple-system, Roboto, Helvetica,
+    sans-serif, bold;
+  font-weight: bold;
+  font-weight: 0;
+  margin: 7rem 0 0 1rem;
+}
+
+.heroSubtitle {
+  color: rgba(249, 225, 225, 1);
+  font: 46px Open Sans, sans-serif;
+  margin: 1rem 0 0 1rem;
+}
+
+.heroDescription {
+  font: 300 30px Open Sans Condensed, -apple-system, Roboto, Helvetica,
+    sans-serif;
+  margin: 1rem 0 1rem 1rem;
+}
+
+@media (max-width: 991px) {
+  .hero {
+    margin-top: 40px;
+  }
+
+  .left {
+    display: none;
+  }
+
+  /* .heroTitle {
+    font-size: 40px;
+    line-height: 45px;
+  } */
+
+  /* .heroSubtitle {
+    font-size: 40px;
+  } */
+
+  .heroContent {
+    max-width: 100%;
+  }
+}

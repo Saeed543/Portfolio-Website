@@ -1,0 +1,48 @@
+.services {
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0 30px 32px rgba(123, 34, 34, 0.56);
+  display: flex;
+  min-height: 235px;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  overflow: auto;
+  flex-wrap: wrap;
+  color: rgba(123, 34, 34, 1);
+  text-transform: uppercase;
+  flex-wrap: wrap;
+  padding: 29px 145px;
+  font: 600 35px/35px Saira Condensed, -apple-system, Roboto, Helvetica,
+    sans-serif;
+  max-width: 1120px;
+  width: 100%;
+  margin: 0px;
+}
+
+.serviceItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.serviceIcon {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.serviceTitle {
+  margin-top: 20px;
+  font-size: 35px;
+}
+
+@media (max-width: 991px) {
+  .services {
+    padding: 29px 20px;
+  }
+
+  .serviceTitle {
+    font-size: 30px;
+  }
+}

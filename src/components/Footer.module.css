@@ -1,0 +1,55 @@
+.footer {
+  background-color: rgba(11, 10, 10, 1);
+  min-height: 135px;
+  margin-top: 196px;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 41px 0;
+}
+
+.footerLogo {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  color: rgba(255, 255, 255, 1);
+  font: 700 25px Open Sans, sans-serif;
+}
+
+.logo {
+  width: 45px;
+  height: 45px;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 24px;
+}
+
+.socialIcon {
+  width: 40px;
+  height: 40px;
+}
+
+.copyright {
+  color: rgba(255, 255, 255, 1);
+  font: 300 20px Open Sans Condensed, -apple-system, Roboto, Helvetica,
+    sans-serif;
+}
+
+@media (max-width: 991px) {
+  .footer {
+    margin-top: 40px;
+  }
+
+  .footerContent {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+}
