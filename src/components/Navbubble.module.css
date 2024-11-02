@@ -1,0 +1,60 @@
+.Navbubble {
+    display: none;
+}
+
+.NavbubbleButton {
+    background-color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    z-index: 1;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.NavbubbleButtonIcon {
+    width: 40px;
+    /* Size of the icon */
+    height: 40px;
+
+}
+
+.NavbubbleButton:hover {
+    background-color: #f0f0f0;
+    /* Add hover effect */
+}
+
+.NavWindow {
+    position: relative;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.NavWindowUl {
+    position: relative;
+    list-style-type: none;
+    padding: 10px 0px 10px 0px;
+    margin: 0;
+    overflow: 'hidden';
+    padding-inline-start: 0px;
+    text-decoration: none;
+}
+
+.NavWindowUl li a {
+    text-decoration: none;
+
+}
+
+@media (max-width: 991px) {
+    .Navbubble {
+        display: block;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 1000;
+    }
+}
