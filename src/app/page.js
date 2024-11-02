@@ -1,5 +1,7 @@
 'use client'
 
+'use client'
+
 import './globals.css'
 import React from 'react'
 import Home from '@/components/pages/Home';
