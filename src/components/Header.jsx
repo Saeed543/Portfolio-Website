@@ -31,7 +31,11 @@ const Header = () => {
             </Link>
           </li>
         </ul>
-        <button className={styles.contactButton}><Link style={{textDecoration: "none", color: "white", fontWeight: "700"}} to="/Contact"> Contact</Link></button>
+        <Link style={{ textDecoration: "none", color: "white", fontWeight: "700" }} to="/Contact">
+          <button className={styles.contactButton}>
+            Contact
+          </button>
+        </Link>
       </nav>
     </header>
   );
