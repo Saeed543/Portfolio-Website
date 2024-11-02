@@ -46,6 +46,7 @@
     flex-direction: column;
     margin-top: 40px;
     gap: 40px;
+    max-width: 90%;
   }
 
   .profileImage {

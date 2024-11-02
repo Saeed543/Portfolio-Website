@@ -9,10 +9,10 @@ const Hero = () => {
           <h1 className={styles.heroTitle}>Safiullah
             Saleem</h1>
           <h2 className={styles.heroSubtitle}>
-            Web Designer / software developer
+            Web Designer / Software Developer
           </h2>
           <p className={styles.heroDescription}>
-            Web Design, development and more
+            Web Design, Development and more
           </p>
         </div>
       </div>

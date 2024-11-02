@@ -30,7 +30,6 @@
 }
 
 .heroTitle {
-  text-transform: uppercase;
 
   font: 146px/146px Saira Condensed, -apple-system, Roboto, Helvetica,
     sans-serif, bold;
@@ -52,10 +51,6 @@
 }
 
 @media (max-width: 991px) {
-  .hero {
-    margin-top: 40px;
-  }
-
   .left {
     display: none;
   }
