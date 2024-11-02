@@ -4,7 +4,7 @@ import './globals.css'
 import React from 'react'
 import Home from '@/components/pages/Home';
 import { MemoryRouter, Routes, Route } from 'react-router-dom';
-import Contact from '@/components/pages/contact';
+import Contact from '@/components/pages/Contact';
 import About from '@/components/pages/About';
 import Services from '@/components/pages/Services';
 
